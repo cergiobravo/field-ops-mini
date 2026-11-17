@@ -11,6 +11,9 @@ header {
   color: white;
   padding: 20px;
   border-radius: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 section {
@@ -45,4 +48,16 @@ td {
 .contact {
   background: #1a1816;
   color: white;
+}
+
+.xsheet {
+  border: 2px solid #995900;
+}
+
+.status {
+  background: white;
+  color: #995900;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: bold;
 }
