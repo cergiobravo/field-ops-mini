@@ -1,21 +1,9 @@
-console.log("Field Ops Mini is running");
+function lineTotal(days, firstDay, addDay) {
+    return firstDay + addDay * (days - 1);
 
-const firstDay = 950;
-const addDay = 700;
-const days = 3;
+} 
 
-const lineTotal = firstDay + addDay * (days - 1);
-
-console.log(lineTotal);
-
-const mileageFirstDay = 180;
-const mileageAddDay = 0;
-const mileageDays = 1;
-
-const mileageTotal = mileageFirstDay + mileageAddDay * (mileageDays - 1);
-
-console.log(mileageTotal);
-
-const sheetTotal = lineTotal + mileageTotal;
-
-console.log(sheetTotal);
+console.log(lineTotal(3, 950, 700));
+console.log(lineTotal(1, 180, 0));
+console.log(lineTotal(4, 350, 250));
+console.log(lineTotal(9, 1050, 1050));
