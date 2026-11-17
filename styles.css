@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f1ede4;
+  color: #1a1816;
+  margin: 0;
+  padding: 16px;
+}
+
+Header {
+  background: #995900;
+  color: white;
+  padding: 20px;
+  border-radius: 22px;
+}
+
+section {
+  background: white;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 22px;
+}
+
+h1{
+    font-size: 32px;
+    margin: 0;
+}
+
+button {
+  background: #995900;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 20px;
+}
+
+th, td {
+  padding: 8px 12px;
+}
